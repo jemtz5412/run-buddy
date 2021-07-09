@@ -1,5 +1,4 @@
 * {
-<<<<<<< HEAD
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -28,55 +27,29 @@ header h1 {
   color: #fce138;
 }
 
-=======
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* apply styles to <header> */
-header {
-  padding: 20px 35px;
-  background-color: #39a6b2;
-}
-header h1 {
-  font-weight: bold;
-  font size: 36px;
-  color: #fce138;
-  margin: 0;
-  display: inline;
-}
->>>>>>> 9de564d65b49ba9b680a0331560688d93ce6fe50
 header a {
   text-decoration: none;
   color: #fce138;
 }
-<<<<<<< HEAD
 
 header nav {
   margin: 7px 0;
 }
 
-header nav ul li {
-  display: inline;
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
 }
 
-=======
-header nav {
-  float: right;
-  margin: 7px 0;
-}
-header nav ul li {
-  display: inline;
-}
->>>>>>> 9de564d65b49ba9b680a0331560688d93ce6fe50
 header nav ul li a {
   margin: 0 30px;
   font-weight: lighter;
-  font-size: 22px;
+  font-size: 1.5vw;
 }
 
-<<<<<<< HEAD
 /* HEADER / NAVBAR STYLES END */
 
 
@@ -88,34 +61,17 @@ footer {
   width: 100%;
 }
 
-=======
-body {
-  /* more on this crazy alphanumerical value in a minute! */
-  color: #39a6b2;
-  font-family: Helvetica, Arial, sans-serif;
-}
-footer {
-  background: #fce138;
-  width: 100%;
-  padding: 40px 35px;
-}
->>>>>>> 9de564d65b49ba9b680a0331560688d93ce6fe50
 footer h2 {
   display: inline;
   color: #024e76;
   font-size: 30px;
   margin: 0;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 9de564d65b49ba9b680a0331560688d93ce6fe50
 footer div {
   float: right;
   line-height: 1.5;
   text-align: right;
 }
-<<<<<<< HEAD
 
 footer a {
   color: #024e76;
@@ -336,8 +292,3 @@ height: 400px;
 .text-right {
   text-align: right;
 }
-=======
-footer a {
-  color: #024e76;
-}
->>>>>>> 9de564d65b49ba9b680a0331560688d93ce6fe50
